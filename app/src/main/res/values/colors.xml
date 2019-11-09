@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3B5FA7</color>
+    <color name="colorPrimaryDark">#FF2C3464</color>
+    <color name="colorAccent">#3B5FA7</color>
+    <color name="back_startColor">#4E8EAA</color>
+    <color name="back_endColor">#FF2C3464</color>
+    <color name="color">#00131a</color>
+    <color name="toolbar_title">#FF2C3464</color>
+    <color name="toolbar_back">#5978A5</color>
+    <color name="tv_update_color">#FF2C3464</color>
+    <color name="tv_add_color">#FF2C3464</color>
+    <color name="tv_type_color">#FF2C3464</color>
+    <color name="tv_amount_color">#FF2C3464</color>
+    <color name="tv_note_color">#FF2C3464</color>
+    <color name="btn_save_color">#5978A5</color>
+    <color name="btn_delete_color">#5978A5</color>
+    <color name="btn_update_color">#5978A5</color>
+</resources>

@@ -1,0 +1,25 @@
+<resources>
+    <string name="app_name">Daily Shopping List</string>
+    <string name="tv_logIn">Log In</string>
+    <string name="edt_email_hint">Email</string>
+    <string name="edt_password_hint">Password</string>
+    <string name="btn_log_in">LogIn</string>
+    <string name="tv_sign_up_link">don\'t have an account?Sign up now</string>
+    <string name="tv_SignUp">Sign Up</string>
+    <string name="btn_sign_up">SignUp</string>
+    <string name="tv_log_in_link">already have an account?Log In</string>
+    <string name="edt_re_password_hint">Re-Password</string>
+    <string name="toolbar_title">Shopping List</string>
+    <string name="tv_total_items">Total items:</string>
+    <string name="tv_total_items_count">0000</string>
+    <string name="tv_type">Type:</string>
+    <string name="tv_amount">Amount:</string>
+    <string name="tv_note">Note:</string>
+    <string name="btn_save">Save</string>
+    <string name="tv_Add">Add</string>
+    <string name="tv_update">Update</string>
+    <string name="btn_delete">Delete</string>
+    <string name="btn_update">Update</string>
+    <string name="tv_logIn_error">Invalid email or password</string>
+    <string name="tv_SignUp_error">Invalid email</string>
+</resources>

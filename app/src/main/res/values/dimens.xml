@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <dimen name="logInHeader">24sp</dimen>
+    <dimen name="layout_margin_top">10dp</dimen>
+    <dimen name="tv_update_margin_start_left">3dp</dimen>
+    <dimen name="update_container_margin">5dp</dimen>
+    <dimen name="update_container_padding">5dp</dimen>
+    <dimen name="add_container_margin">5dp</dimen>
+    <dimen name="add_container_padding">5dp</dimen>
+    <dimen name="btn_save_margin_top">10dp</dimen>
+    <dimen name="btn_save_margin_end_right">10dp</dimen>
+
+    <dimen name="edt_type_width">0dp</dimen>
+    <dimen name="edt_amount_width">0dp</dimen>
+    <dimen name="edt_note_width">0dp</dimen>
+
+    <dimen name="edt_type_weight">2</dimen>
+    <dimen name="edt_amount_weight">2</dimen>
+    <dimen name="edt_note_weight">2</dimen>
+
+
+    <dimen name="tv_type_width">0dp</dimen>
+    <dimen name="tv_amount_width">0dp</dimen>
+    <dimen name="tv_note_width">0dp</dimen>
+
+    <dimen name="tv_type_weight">1</dimen>
+    <dimen name="tv_amount_weight">1</dimen>
+    <dimen name="tv_note_weight">1</dimen>
+
+    <dimen name="tv_amount_margin">9dp</dimen>
+    <dimen name="tv_type_margin">10dp</dimen>
+    <dimen name="tv_note_margin">10dp</dimen>
+    <dimen name="add_root_padding">3dp</dimen>
+    <dimen name="tv_add_margin_start_left">3dp</dimen>
+    <dimen name="btn_update_margin_end_right">10dp</dimen>
+    <dimen name="btn_update_margin_start_left">10dp</dimen>
+    <dimen name="update_root_padding">3dp</dimen>
+
+
+</resources>

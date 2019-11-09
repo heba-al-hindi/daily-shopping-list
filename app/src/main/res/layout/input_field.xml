@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="@dimen/add_root_padding">
+
+
+    <LinearLayout
+        android:id="@+id/add_container"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/add_container_margin"
+        android:orientation="vertical"
+        android:padding="@dimen/add_container_padding">
+
+        <TextView
+            android:id="@+id/tv_Add"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="@dimen/tv_add_margin_start_left"
+            android:layout_marginLeft="@dimen/tv_add_margin_start_left"
+            android:fontFamily="sans-serif-thin"
+            android:text="@string/tv_Add"
+            android:textAppearance="?android:textAppearanceLarge"
+            android:textColor="@color/tv_add_color" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/tv_type"
+                android:layout_width="@dimen/tv_type_width"
+                android:layout_height="wrap_content"
+                android:layout_margin="@dimen/tv_type_margin"
+                android:layout_weight="@dimen/tv_type_weight"
+                android:fontFamily="sans-serif-thin"
+                android:text="@string/tv_type"
+                android:textAppearance="?android:textAppearanceMedium"
+                android:textColor="@color/tv_type_color"
+                android:textStyle="bold" />
+
+
+            <EditText
+                android:id="@+id/edt_type"
+                android:layout_width="@dimen/edt_type_width"
+                android:layout_height="wrap_content"
+                android:layout_weight="@dimen/edt_type_weight"
+                android:inputType="text" />
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/tv_amount"
+                android:layout_width="@dimen/tv_amount_width"
+                android:layout_height="wrap_content"
+                android:layout_margin="@dimen/tv_amount_margin"
+                android:layout_weight="@dimen/tv_amount_weight"
+                android:fontFamily="sans-serif-thin"
+                android:text="@string/tv_amount"
+                android:textAppearance="?android:textAppearanceMedium"
+                android:textColor="@color/tv_amount_color"
+                android:textStyle="bold" />
+
+            <EditText
+                android:id="@+id/edt_amount"
+                android:layout_width="@dimen/edt_amount_width"
+                android:layout_height="wrap_content"
+                android:layout_weight="@dimen/edt_amount_weight"
+                android:inputType="number" />
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/tv_note"
+                android:layout_width="@dimen/tv_note_width"
+                android:layout_height="wrap_content"
+                android:layout_margin="@dimen/tv_note_margin"
+                android:layout_weight="@dimen/tv_note_weight"
+                android:text="@string/tv_note"
+                android:textAppearance="?android:textAppearanceMedium"
+                android:textColor="@color/tv_note_color" />
+
+            <EditText
+                android:id="@+id/edt_note"
+                android:layout_width="@dimen/edt_note_width"
+                android:layout_height="wrap_content"
+                android:layout_weight="@dimen/edt_note_weight"
+                android:inputType="text" />
+
+        </LinearLayout>
+
+        <Button
+            android:id="@+id/btn_save"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="bottom|end"
+            android:layout_marginTop="@dimen/btn_save_margin_top"
+            android:layout_marginEnd="@dimen/btn_save_margin_end_right"
+            android:layout_marginRight="@dimen/btn_save_margin_end_right"
+            android:background="@color/btn_save_color"
+            android:fontFamily="sans-serif"
+            android:text="@string/btn_save"
+            android:textColor="@android:color/white" />
+
+    </LinearLayout>
+
+</LinearLayout>

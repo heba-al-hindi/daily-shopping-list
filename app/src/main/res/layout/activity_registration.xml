@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFFFFF"
+    android:gravity="center"
+    android:orientation="vertical"
+    android:padding="6dp"
+    tools:context=".activites.LogInActivity">
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:gravity="center">
+
+            <TextView
+                android:id="@+id/tv_signUp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="sans-serif-thin"
+                android:text="@string/tv_SignUp"
+                android:textAppearance="?android:textAppearanceLarge"
+                android:textColor="#FF2C3464"
+                android:textSize="@dimen/logInHeader"
+                tools:targetApi="O" />
+
+            <TextView
+                android:id="@+id/tv_sign_up_failed"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15dp"
+                android:text="@string/tv_SignUp_error"
+                android:layout_gravity="start"
+                android:layout_marginLeft="5dp"
+                android:layout_marginStart="5dp"
+                android:paddingLeft="3dp"
+                android:paddingStart="3dp"
+                android:textColor="#FF0000"
+                android:fontFamily="sans-serif"
+                android:textSize="13sp"
+                android:visibility="invisible"/>
+
+            <EditText
+                android:id="@+id/email_sign_up"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:autofillHints="@string/edt_email_hint"
+                android:background="@drawable/custom_design"
+                android:hint="@string/edt_email_hint"
+                android:inputType="textEmailAddress"
+                android:padding="14dp"
+                android:textAppearance="?android:textAppearanceMedium"
+                tools:targetApi="O" />
+
+            <EditText
+                android:id="@+id/password_sign_up"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/layout_margin_top"
+                android:autofillHints="@string/edt_password_hint"
+                android:background="@drawable/custom_design"
+                android:hint="@string/edt_password_hint"
+                android:inputType="numberPassword"
+                android:padding="14dp"
+                android:textAppearance="?android:textAppearanceMedium"
+                tools:targetApi="O" />
+
+            <EditText
+                android:id="@+id/re_password_sign_up"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/layout_margin_top"
+                android:autofillHints="@string/edt_password_hint"
+                android:background="@drawable/custom_design"
+                android:hint="@string/edt_re_password_hint"
+                android:inputType="numberPassword"
+                android:padding="14dp"
+                android:textAppearance="?android:textAppearanceMedium"
+                tools:targetApi="O" />
+
+            <Button
+                android:id="@+id/btn_sign_up"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/layout_margin_top"
+                android:background="@drawable/custom_design"
+                android:padding="10dp"
+                android:text="@string/btn_sign_up"
+                android:textAppearance="?android:textAppearanceMedium"
+                android:textColor="@android:color/white" />
+
+            <TextView
+                android:id="@+id/tv_log_in_link"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:fontFamily="sans-serif-thin"
+                android:gravity="center"
+                android:padding="5dp"
+                android:text="@string/tv_log_in_link"
+                android:textAppearance="?android:textAppearanceSmall"
+                android:textColor="#FF2C3464"
+                android:textStyle="bold" />
+
+        </LinearLayout>
+
+    </ScrollView>
+
+</LinearLayout>
